@@ -1,0 +1,27 @@
+{% extends '_layout.html' %}
+
+
+{% block title %}BYTE | About{% endblock %}
+
+{% block body %}
+</div>
+<div class="col-md-6">
+    <div class="container part box-outline">
+        <h3 class="post-header">Behind the <span class="proj">Project</span> </h3>
+        <p class="post-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+</div>
+
+
+<div class="col-md-3">
+    <div class="faq box-outline">
+        <div class="faq-container d-flex">
+        </div class="faq-content">
+        <h3 class="faq-title">FAQs</h3>
+        {% for faq_listofQuestions , faq_listofAnswers in faq_dictionary.items() %}
+        <p class="question">Sample question</p>
+        <p class="answer">Sample answer</p>
+        {% endfor %}
+    </div>
+
+    {% endblock %}
