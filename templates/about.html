@@ -7,8 +7,8 @@
 </div>
 <div class="col-md-6">
     <div class="container part box-outline">
-        <h3 class="post-header">Behind this <span class="proj">Project BYTE</span> </h3>
-        <p class="post-details">This is a project started as a class for Bioinformatics students at UNCC<
+        <h3 class="post-header">Behind this <span class="proj">Project</span> </h3>
+        <p class="post-details">This is a project started as a class for Bioinformatics students at UNC Charlotte
     </div>
 </div>
 
@@ -19,8 +19,8 @@
         </div class="faq-content">
         <h3 class="faq-title">FAQs</h3>
         {% for faq_listofQuestions , faq_listofAnswers in faq_dictionary.items() %}
-        <p class="question">Sample question</p>
-        <p class="answer">Sample answer</p>
+        <p class="question">{{faq_listofQuestions}}</p>
+        <p class="answer">{{faq_listofAnswers}}</p>
         {% endfor %}
     </div>
 
