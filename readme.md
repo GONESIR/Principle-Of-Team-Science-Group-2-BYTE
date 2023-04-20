@@ -2,13 +2,14 @@
 
 - Venue: 	University of North Carolina at Charlotte (UNCC)
 - Date: 	Spring 2023
-- Credits: 4 credit class
-- Instructor Dr Richard Allen White III 
+- Credits: 3 credit class
+- Instructor Dr. Richard Allen White III 
 - Where/Location: Main/Uptown Center Campus - Bioinformatics building 217
 - Style of instruction: Face-to-face Instructional Method
 - Department: Bioinfomatics and Genomics (BiG)
 - Completed by Students: Pasipanodya Gonese and Deepti Nair
-- Website for the project: https://github.com/GONESIR/Principle-Of-Team-Science-Group-2-BYTE 
+- Github Website for project: https://github.com/GONESIR/Principle-Of-Team-Science-Group-2-BYTE
+- Webiste for product hosted by Render: https://principle-of-team-science-group-2-byte.onrender.com/ 
 
 <p align="center"> 
 <img src="Bytecycle prototype 3.png">
