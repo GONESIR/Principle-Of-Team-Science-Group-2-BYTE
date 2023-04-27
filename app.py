@@ -26,11 +26,11 @@ def contact():
 
 @app.route('/about')
 def info():
-    faq_listofQuestions = ["What is BYTE?", "Why to join BYTE?", "How much does it cost to get trained?", \
-        "Who runs BYTE?","Is BYTE for or not-for profit organization?"]
-    faq_listofAnswers = ["BYTE stands for Bioinformatics Youth Training Enthusiasts"  \
-        ,"BYTE provides educational services in the emerging field of Bioinformatics.", "You will benefit from world class education absolutely free!!" \
-            , "We are group of Bioinformaticians and Software developers." , "BYTE is a 501(c)(3) non-profit organization."]  
+    faq_listofQuestions = ["What is BYTECYCLE?", "What BYTECYCLE offers?", "Is it true that I can stay up to date with the latest tech and Bioinformatics news?", \
+        "Who runs BYTECYCLE?","Is BYTECYCLE a for or not-for profit organization?"]
+    faq_listofAnswers = ["BYTECYCLE LLC is a company that connects communites to the cloud. "  \
+        ,"BYTECYCLE provides cloud services through some of the top cloud providers at a lowered rate.", "Yes BYTECYCLE takes advantage of the the cloud service to provide education, media and the latest in science to keep you updated." \
+            , "We are group of Bioinformaticians and Software developers." , "BYTECYCLE is an LLC service company."]  
     for i in range(5):
         faq_dictionary[faq_listofQuestions[i]] = faq_listofAnswers[i] 
     return render_template('about.html', about_active=True, faq_dictionary = faq_dictionary)
